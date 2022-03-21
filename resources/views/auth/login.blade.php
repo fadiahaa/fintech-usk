@@ -8,7 +8,7 @@ $page = 'Login';
     <div class="container">
         <div class="row justify-content-center">
             <div class="col-md-8">
-                <div class="card" style="background-color: #325ea8">
+                <div class="card" style="background-color: #a5c6fa">
                     <div class="card-header">{{ __('Login') }}</div>
                     <div class="card-body">
                         <form method="POST" action="{{ route('login') }}">
