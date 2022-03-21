@@ -39,8 +39,8 @@ class FirstSeeder extends Seeder
         ]);
 
         User::create([
-            "name" => "Nursyda",
-            "email" => "nusryfa@gmail.com",
+            "name" => "Nursyfa",
+            "email" => "nursyfa@gmail.com",
             "password" => Hash::make("nursyfa"),
             "role_id" => $canteen->id
         ]);
